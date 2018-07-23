@@ -1,5 +1,5 @@
 # zBANK
-COBOL program to simulate a bank account using VSAM files
+COBOL program to simulate a bank account balance, utilizing a VSAM file as a persistant storage
 
 
 COBOL application using\
@@ -24,7 +24,7 @@ summarize the program code and the work done.
 Schematic sketch of the functional structure of ZBANK
 
 ## COBOL Code
-see CICS.COB_ZBANK3_.cbl
+[CICS.COB_ZBANK3_.cbl](CICS.COB_ZBANK3_.cbl) \
 
 ## JCL CICS Submit Code
 [CICS.JCL_PPCOMLNK_.cbl](CICS.JCL_PPCOMLNK_.cbl) \
@@ -33,10 +33,10 @@ see CICS.COB_ZBANK3_.cbl
 [CICS.JCL_COPY2VSM_.cbl](CICS.JCL_COPY2VSM_.cbl)
 
 ## Other ﬁles
-SEQDAT.ZBANK.cbl
+[SEQDAT.ZBANK.cbl](SEQDAT.ZBANK.cbl)
 
 ## CICS Installation Code
-CICS_install.cbl
+[CICS_install.cbl](CICS_install.cbl)
 
 Diﬀerent screens realized with BMS, all the communication is done in
 CICS. Data is stored throughout diﬀerent sessions in a key-sequenced VSAM ﬁle \
