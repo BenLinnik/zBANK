@@ -12,7 +12,7 @@ Benjamin Linnik\
 Nicklas V.\
 Henrik G.
 
-<img src="https://github.com/BenLinnik/zBANK/raw/master/img/logo.png" width="200">
+<img src="https://github.com/BenLinnik/zBANK/raw/master/img/logo.png" width="300">
 
 For the lecture Enterprise Mainframe Computing a project was developed
 in collaboration. The project named “ZBANK” is an application written in
@@ -24,7 +24,7 @@ summarize the program code and the work done.
 Schematic sketch of the functional structure of ZBANK
 
 ## COBOL Code
-[CICS.COB_ZBANK3_.cbl](CICS.COB_ZBANK3_.cbl) \
+[CICS.COB_ZBANK3_.cbl](CICS.COB_ZBANK3_.cbl)
 
 ## JCL CICS Submit Code
 [CICS.JCL_PPCOMLNK_.cbl](CICS.JCL_PPCOMLNK_.cbl) \
