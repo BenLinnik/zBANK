@@ -21,7 +21,25 @@ and a key-sequenced VSAM for data storage. In this document, we
 summarize the program code and the work done.
 
 ![image](img/ZBankSetup.png)
+Schematic sketch of the functional structure of ZBANK
 
+## COBOL Code
+see CICS.COB_ZBANK3_.cbl
+
+## JCL CICS Submit Code
+CICS.JCL_PPCOMLNK_.cbl \
+CICS.JCL_VSAMSET_.cbl \
+CICS.JCL_ZMAPSET_.cbl \
+CICS.JCL_COPY2VSM_.cbl
+
+## Other ﬁles
+SEQDAT.ZBANK.cbl
+
+## CICS Installation Code
+CICS_install.cbl
+
+Diﬀerent screens realized with BMS, all the communication is done in
+CICS. Data is stored throughout diﬀerent sessions in a key-sequenced VSAM ﬁle
 ![image](img/zbank1.png)
 
 ![image](img/zbank2.png)
