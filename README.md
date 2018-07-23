@@ -27,10 +27,10 @@ Schematic sketch of the functional structure of ZBANK
 see CICS.COB_ZBANK3_.cbl
 
 ## JCL CICS Submit Code
-CICS.JCL_PPCOMLNK_.cbl \
-CICS.JCL_VSAMSET_.cbl \
-CICS.JCL_ZMAPSET_.cbl \
-CICS.JCL_COPY2VSM_.cbl
+[CICS.JCL_PPCOMLNK_.cbl](CICS.JCL_PPCOMLNK_.cbl) \
+[CICS.JCL_VSAMSET_.cbl](CICS.JCL_VSAMSET_.cbl) \
+[CICS.JCL_ZMAPSET_.cbl](CICS.JCL_ZMAPSET_.cbl) \
+[CICS.JCL_COPY2VSM_.cbl](CICS.JCL_COPY2VSM_.cbl)
 
 ## Other ﬁles
 SEQDAT.ZBANK.cbl
@@ -39,7 +39,7 @@ SEQDAT.ZBANK.cbl
 CICS_install.cbl
 
 Diﬀerent screens realized with BMS, all the communication is done in
-CICS. Data is stored throughout diﬀerent sessions in a key-sequenced VSAM ﬁle
+CICS. Data is stored throughout diﬀerent sessions in a key-sequenced VSAM ﬁle \
 ![image](img/zbank1.png)
 
 ![image](img/zbank2.png)
